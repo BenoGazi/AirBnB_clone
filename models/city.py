@@ -3,10 +3,8 @@
 
 # Importing the base model class
 from models.base_model import BaseModel
-
 class Amenity(BaseModel):
     """Represents an amenity."""
-
     def __init__(self):
         """Initialize the Amenity object."""
         super().__init__()

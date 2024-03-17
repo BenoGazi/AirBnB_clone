@@ -1,13 +1,11 @@
 #!/usr/bin/python3
-"""Defines a class representing an Amenity."""
-
-# Importing the base model class
+"""Defines the Amenity class."""
 from models.base_model import BaseModel
-
 class Amenity(BaseModel):
-    """Represents an amenity."""
+    """Represent an amenity.
 
-    def __init__(self):
-        """Initialize the Amenity object."""
-        super().__init__()
-        self.name = ""
+    Attributes:
+        name (str): The name of the amenity.
+    """
+
+    name = ""
